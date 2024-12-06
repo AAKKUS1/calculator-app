@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "League Spartan", sans-serif;
+}
+
+body {
+    background-color: #3b4664;
+    padding: 2rem 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    align-items: end;
+}
+
+h1 {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.display {
+    font-weight: 700;
+    font-size: 40px;
+    width: 100%;
+    text-align: right;
+    border-radius: 10px;
+    padding: 30px 50px ;
+    background-color: #181F33;
+    color: #fff;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 10;
+}
+
+article {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #181F33;
+    margin-top: 24px;
+    width: 100%;
+}
+
+.section-num {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 60px;
+    height: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 5px;
+    color: #434A59;
+    background-color: #eae3db;
+    border: none;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: #d4cec7;
+}
+
+#delete{
+    width: 60px;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #647299;
+    color: #fff;
+    box-shadow: 0 4px 0 0 #404e73;
+}
+
+#plus  {
+    width: 60px;
+    height: 64px;
+    font-size: 32px;
+    font-weight: 700;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #434A59;
+    box-shadow: 0 4px 0 0 #b4a497;
+}
+.section-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#equal {
+    width: 133px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    box-shadow: 0 4px 0 0 #92261a;
+}
+
+#reset {
+    width: 133px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #647299;
+    color: #fff;
+    box-shadow: 0 4px 0 0 #404e73;
+}
+.theme{
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 11.04px;
+    letter-spacing: 1px;
+    color: white;
+}
+.jsp{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+@media screen and (min-width: 321px) {
+    header {
+        width: 23%;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    #egale {
+        width: 227px;
+        display: flex;
+        padding: 1rem 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #delete {
+        width: 101px;
+    }
+
+    #plus, #moins {
+        width: 101px;
+    }
+
+    #reset {
+        width: 150px;
+        display: flex;
+        padding: 1rem 4rem;
+        justify-content: center;
+        align-items: center;
+    }
+    article {
+        width: 20%;
+       
+    }
+
+    .display {
+        width: 20%;
+        margin: auto;
+    }
+
+    button {
+        width: 101px;
+    }
+    
+}
